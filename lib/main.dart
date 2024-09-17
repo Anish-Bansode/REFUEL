@@ -58,12 +58,12 @@ class _MyHomePageState extends State<MyHomePage>
                     child: Builder(
                       builder: (context) => ElevatedButton(
                           onPressed: (){Scaffold.of(context).openDrawer();},
-                          child: Text('open drawer'),
+                          child: const Text('open drawer'),
                         ),
 
                     ),
                   ),
-
+/**/
                     //curve design widget
                   Hero(
                     tag: 'A1',
@@ -190,7 +190,7 @@ class _MyHomePageState extends State<MyHomePage>
                       onPressed:(){
                         //action trigger
                       },
-                      child: const Text('Book Sloat',
+                      child: const Text('Book Slot',
                         style: TextStyle(fontSize: 20),),
 
 
@@ -227,12 +227,12 @@ class _MyHomePageState extends State<MyHomePage>
         child: ListView(
           children: [
             ListTile(
-              title: Text('About us'),
+              title: const Text('About us'),
               onTap: (){},
             ),
 
             ListTile(
-              title: Text('Contact us'),
+              title: const Text('Contact us'),
               onTap: (){},
             )
           ],
